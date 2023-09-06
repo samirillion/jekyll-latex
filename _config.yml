@@ -1,7 +1,7 @@
 # Site Info
 title: "Jekyll Latex"
 description: "A pretty good Jekyll theme"
-remote_theme: "jekyll-latex"
+remote_theme: samirillion/jekyll-latex
 google_verify: abc123 # Put your Google Verification here
 google_analytics: UA-123
 
@@ -31,6 +31,7 @@ exclude: ["LICENSE", "README.md", "CNAME", "vendor", "Gemfile"]
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-remote-theme
 
 paginate: 10
 paginate_path: "/blog/page:num/"

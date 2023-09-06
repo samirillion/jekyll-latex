@@ -262,6 +262,7 @@ DEPENDENCIES
   bourbon
   github-pages
   jekyll-paginate
+  jekyll-remote-theme
   webrick
 
 BUNDLED WITH
