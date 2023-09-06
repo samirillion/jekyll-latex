@@ -1,7 +1,7 @@
 # Site Info
 title: "Jekyll Latex"
 description: "A pretty good Jekyll theme"
-remote_theme: "Jekyll::Latex"
+remote_theme: "jekyll-latex"
 google_verify: abc123 # Put your Google Verification here
 google_analytics: UA-123
 
