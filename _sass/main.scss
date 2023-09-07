@@ -384,7 +384,7 @@ nav li {
 }
 
 nav li:before {
-  content: counters(item, '.') ' ';
+  // content: counters(item, '.') ' ';
   counter-increment: item;
   padding-right: 0.85rem;
 }

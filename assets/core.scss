@@ -1,6 +1,8 @@
 --- 
 # Front matter comment to ensure Jekyll properly reads file. 
 --- 
+@import 'variables';
 @import 'main';
+@import 'masthead';
 @import 'syntax';
 @import 'overrides';

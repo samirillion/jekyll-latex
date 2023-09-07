@@ -1,15 +1,15 @@
-<aside class="logo">
-  {% if page.url == '/index.liquid' or page.url == '/' %}
-    {% assign link = '/about' %}
-    {% assign prompt = 'About the Author' %}
-  {% else %}
-    {% assign link = '/' %}
-    {% assign prompt = 'Back to Home' %}
-  {% endif %}
-
-  <a href="{{ link | prepend: site.url }}">
-    <img class="gravatar" src="https://www.gravatar.com/avatar/{{ site.author_gravatar }}.png?s=80">
-  </a>
-  <span class="logo-prompt">{{ prompt }}</span>
-
-</aside>
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <ul class="visible-links">
+          {%- for link in site.data.navigation.main -%}
+            <li class="masthead__menu-item">
+              <a href="{{ link.url | relative_url }}"{% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+            </li>
+          {%- endfor -%}
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
