@@ -1,1 +1,1 @@
-Sitemap: https://samirillion.github.io/jekyll-latex//sitemap.xml
+Sitemap: https://samirillion.github.io/jekyll-latex/sitemap.xml
